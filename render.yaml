@@ -1,14 +1,14 @@
 # Render blueprint for the TikTok Comment Scraper API.
 #
 # Alternative to the blueprint: create a Web Service pointing at this repo
-# with runtime Python, build command `pip install -r requirements.txt && python -m playwright install chromium`,
+# with runtime Python, build command `bash build.sh`,
 # start command `uvicorn main:app --host 0.0.0.0 --port $PORT`, and health check path `/health`.
 services:
   - type: web
     name: tiktok-comment-scraper
     runtime: python
     plan: free
-    buildCommand: pip install -r requirements.txt && python -m playwright install chromium
+    buildCommand: bash build.sh
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     envVars:

@@ -178,7 +178,7 @@ A `render.yaml` blueprint is included. Push this repository to GitHub, then in
 Render choose **New > Blueprint** and select the repo. Render will create the
 service with:
 
-- Build: `pip install -r requirements.txt && python -m playwright install chromium`
+- Build: `bash build.sh`
 - Start: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 - Health check path: `/health`
 
@@ -186,7 +186,7 @@ service with:
 
 1. Create a new **Web Service** and connect the repository.
 2. **Runtime**: Python 3.13
-3. **Build command**: `pip install -r requirements.txt && python -m playwright install chromium`
+3. **Build command**: `bash build.sh`
 4. **Start command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 5. **Health check path**: `/health`
 6. Optional env vars: `LOG_LEVEL=INFO`, `PLAYWRIGHT_HEADLESS=true`,
