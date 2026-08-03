@@ -3,6 +3,6 @@ set -o errexit
 
 pip install -r requirements.txt
 
-playwright install chromium
+python -m playwright install chromium
 
-playwright install-deps chromium || true
+python -m playwright install-deps chromium || true
