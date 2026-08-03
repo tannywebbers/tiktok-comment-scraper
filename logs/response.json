@@ -1,0 +1,10 @@
+{
+    "status_code": 200,
+    "final_url": "https://www.tiktok.com/api/comment/list/",
+    "redirect_chain": [],
+    "content_type": "application/json",
+    "response_length": 127,
+    "elapsed_seconds": 7.540000115113799e-05,
+    "is_json": true,
+    "body_json": "{\n    \"has_more\": 0,\n    \"comments\": [\n        {\n            \"cid\": \"19\",\n            \"user\": {\n                \"unique_id\": \"u19\",\n                \"nickname\": \"n19\"\n            },\n            \"text\": \"t19\",\n            \"create_time\": 19\n        }\n    ]\n}"
+}

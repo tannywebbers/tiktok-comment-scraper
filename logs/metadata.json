@@ -1,0 +1,13 @@
+{
+    "provider": "StubProvider",
+    "method": "GET",
+    "request_url": "https://www.tiktok.com/api/comment/list/?aid=1988&aweme_id=17&count=20&cursor=0",
+    "request_timestamp": "2026-08-03T00:53:53.540328+00:00",
+    "status_code": 200,
+    "final_url": "https://www.tiktok.com/api/comment/list/",
+    "elapsed_seconds": 6.959999882383272e-05,
+    "content_type": "application/json",
+    "is_json": true,
+    "response_length": 127,
+    "redirect_count": 0
+}

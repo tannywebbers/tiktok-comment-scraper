@@ -1,0 +1,40 @@
+{
+    "response_type": "json",
+    "possible_reason": "OK",
+    "status_code": 200,
+    "content_type": "application/json",
+    "json_detected": true,
+    "html_detected": false,
+    "redirects": 0,
+    "redirect_destinations": [],
+    "response_size": 127,
+    "compression": "",
+    "server": "",
+    "security_headers": {},
+    "cookies_sent": [
+        "c"
+    ],
+    "cookies_received": [],
+    "top_level_keys": [
+        "comments",
+        "has_more"
+    ],
+    "has_comments": true,
+    "has_cursor": false,
+    "has_has_more": true,
+    "has_status_code": false,
+    "has_log_pb": false,
+    "doctype": false,
+    "script_tags": false,
+    "contains_captcha": false,
+    "contains_verify": false,
+    "contains_login": false,
+    "contains_access_denied": false,
+    "contains_blocked": false,
+    "contains_forbidden": false,
+    "contains_challenge": false,
+    "contains_cloudflare": false,
+    "html_signals": [],
+    "recommendations": [],
+    "provider": "StubProvider"
+}

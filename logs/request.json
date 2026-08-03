@@ -1,0 +1,18 @@
+{
+    "url": "https://www.tiktok.com/api/comment/list/?aid=1988&aweme_id=19&count=20&cursor=0",
+    "method": "GET",
+    "headers": {
+        "user-agent": "x"
+    },
+    "cookies": {
+        "c": "1"
+    },
+    "params": {
+        "aid": "1988",
+        "aweme_id": "19",
+        "count": "20",
+        "cursor": "0"
+    },
+    "provider": "StubProvider",
+    "timestamp": "2026-08-03T00:53:53.556861+00:00"
+}
